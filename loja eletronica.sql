@@ -1,3 +1,4 @@
+create database eletro_senai;
 use eletro_senai;
 
 create table LOGIN(
