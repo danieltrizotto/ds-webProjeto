@@ -1,57 +1,165 @@
+@media screen and (max-width:990px) {
+    * {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 
-*{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    .menuRespo {
+        display: flex;
+        margin-right: 200px
+    }
+
+    .menuRespo button {
+        background-color: rgb(19, 85, 172, 0);
+        border: none;
+        width: 2vw;
+    }
+
+    header {
+        background-color: rgb(19, 85, 172);
+        height: 5vh;
+    }
+
+    .busca {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px
+    }
+
+    .busca input {
+        margin-left: 100px;
+        width: 300px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .menu-mobile a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    .menu-mobile ul {
+        display: none;
+    }
+
+    .menu-mobile .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+
+    .carousel-inner img {
+        max-height: 530px;
+
+    }
+
+    main {
+        height: 110vh;
+    }
+
+    footer {
+        background-color: rgb(19, 85, 172);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer button {
+        border-radius: 6px;
+        background-color: aliceblue;
+        color: black;
+    }
+
+    .footerNav a {
+        display: flex;
+        justify-content: flex-start;
+        color: aliceblue;
+        align-items: center;
+        flex-direction: row;
+    }
 }
 
-header{
-    background-color: rgb(19, 85, 172);
-height:10vh ;
-   
-}
+@media screen and (min-width:991px) {
+    * {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 
-.busca{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px
-}
+    .menuRespo {
+        display: none;
+    }
 
+    .menuRespo button {
+        display: none;
+    }
 
+    header {
+        background-color: rgb(19, 85, 172);
+        height: 12vh;
+    }
 
-.busca input{
-    margin-left: 100px;
-    width:300px;
-}
+    .busca {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px
+    }
 
-.categoriasNav{
-    display: flex;
-    justify-content: space-around;
-}
+    .busca input {
+        margin-left: 100px;
+        width: 300px;
+    }
 
-.categoriasNav a{
-  color: aliceblue;
-  text-decoration: none;
-}
+    .nav-list{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: space-between;
+    }
 
-.carousel-inner img{
-    max-height: 530px;
+    .nav-list a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    .menu-mobile ul{
+        display: none;
+    }
+
     
-}
 
-main{
-    height: 110vh;
-}
+    .carousel-inner img {
+        max-height: 530px;
 
-footer{
-    background-color:  rgb(19, 85, 172);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
+    }
 
-footer button{
-    border-radius: 6px;
-    background-color: aliceblue;
-    color: black;
+    main {
+        height: 110vh;
+    }
+
+    footer {
+        background-color: rgb(19, 85, 172);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer button {
+        border-radius: 6px;
+        background-color: aliceblue;
+        color: black;
+    }
+
+    .footerNav a {
+        display: flex;
+        justify-content: flex-start;
+        color: aliceblue;
+        align-items: center;
+        flex-direction: row;
+    }
 }
