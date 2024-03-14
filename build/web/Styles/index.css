@@ -1,0 +1,57 @@
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: rgb(19, 85, 172);
+height:10vh ;
+   
+}
+
+.busca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px
+}
+
+
+
+.busca input{
+    margin-left: 100px;
+    width:300px;
+}
+
+.categoriasNav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.categoriasNav a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.carousel-inner img{
+    max-height: 530px;
+    
+}
+
+main{
+    height: 110vh;
+}
+
+footer{
+    background-color:  rgb(19, 85, 172);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer button{
+    border-radius: 6px;
+    background-color: aliceblue;
+    color: black;
+}
